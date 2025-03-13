@@ -1,0 +1,9 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #255fb4, #00193d); /* Utilisation de la couleur blanc cassé pour l'arrière-plan */
+    height: 100vh;
+    color: #000000; 
+    overflow-y:hidden;
+}

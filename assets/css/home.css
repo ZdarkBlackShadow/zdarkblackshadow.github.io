@@ -1,0 +1,66 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #255fb4, #00193d); /* Utilisation de la couleur blanc cassé pour l'arrière-plan */
+    height: 100vh;
+    color: #000000; 
+    overflow-y:hidden;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height:100vh;
+    padding:50px;
+    align-items:center;
+    gap: 10rem;
+}
+
+.image-container {
+    border: 4px solid #061429;
+    border-radius: 15px;
+}
+
+.image-container img {
+    border-radius: 15px;
+    height: 450px;
+}
+
+.text-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.text-container h1{
+    color: white;
+    font-size: 45px;
+}
+
+.text-container h2 {
+    color: black;
+    font-size: 35px;
+}
+
+.text-container p {
+    color: white;
+}
+
+.text-container a {
+    text-decoration: none;
+    border: 3px solid #1481BA;
+    background-color: #11B5E4;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 5px;
+    color: #F7F7FF; 
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.text-container a:hover {
+    background-color: #0CAADC;
+    border-color: #0CAADC;
+}

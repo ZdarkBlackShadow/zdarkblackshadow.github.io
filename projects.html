@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="/assets/css/projects.css">
+</head>
+<body>
+    <header>
+        <a class="header-title" href="./index.html">Adrien Lecomte</a>
+        <nav>
+            <a href="/index.html" id="homeLink">Home</a>
+            <a href="/skills.html" id="skillsLink">Skills</a>
+            <a href="#" id="aboutLink">About</a>
+            <a href="#" id="projectsLink">Projects</a>
+            <a href="#" id="contactLink">Contact</a>
+        </nav>
+    </header>
+    <h1>Projects</h1>
+    <select name="" id="projectFilter" onchange="filterProjects()">
+        <option value="all">All</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+    </select>
+    <div id="pythonProjects">
+        <h2>Python</h2>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+    </div>
+    <div id="javaProjects">
+        <h2>Java</h2>
+        <ul>
+            <li><h2>Project 1</h2><p>description du projet</p><img src="" alt="image du projet"> <a href="#">Lien vers le projet</a></li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+    </div>
+    <script src="./assets/js/projects.js"></script>
+</body>
+</html>
