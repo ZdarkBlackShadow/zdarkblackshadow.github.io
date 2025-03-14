@@ -22,13 +22,27 @@ header {
 
 .header-title {
     text-decoration:none;
-    font-size: 18px;
+    font-size: 22px;
     color: #1481BA; /* Utilisation de la couleur bleue pour le titre */
 }
 
-.header-title:hover {
-    transform: scale(1.05);
+.header-title h1:hover {
     color: #11B5E4; /* Utilisation d'une autre nuance de bleu pour le titre */
+}
+
+.header-title h1::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #11B5E4; /* Utilisation de la couleur bleue pour la ligne de survol */
+    transition: width 0.3s ease;
+}
+
+.header-title h1:hover::after {
+    width: 100%;
 }
 
 nav {
